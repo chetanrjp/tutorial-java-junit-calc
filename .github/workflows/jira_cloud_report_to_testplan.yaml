@@ -33,4 +33,4 @@ jobs:
         testFormat: "junit"
         testPaths: "**/surefire-reports/*.xml"
         projectKey: "MJP"
-        testPlanKey: "MJP-1"
+        testPlanKey: ${{ github.event.inputs.test_plan_key }}
