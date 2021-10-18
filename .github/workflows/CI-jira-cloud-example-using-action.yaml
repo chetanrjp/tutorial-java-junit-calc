@@ -25,7 +25,7 @@ jobs:
         name: bld-output
         path: target/
         
-#     - name: Submit results to Xray
+#     - name: Submit results to Xrays
 #       uses: mikepenz/xray-action@v0.9.4
 #       with:
 #         username: ${{ secrets.XRAY_CLIENT_ID }}
